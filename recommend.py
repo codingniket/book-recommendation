@@ -39,7 +39,7 @@ class Recommender:
             documents.append(Document(page_content=content))
 
         # Create vector store
-        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
         self.vectorstore = Chroma.from_documents(documents, embeddings, persist_directory="./chroma_db")
         print(f"Loaded {len(documents)} documents into vector store.")
 
