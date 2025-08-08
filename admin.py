@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_URL = "http://127.0.0.1:5000/add_book"
+API_URL = "https://book-recommendation-1tpc.onrender.com"
 
 def add_book(isbn13, title, authors, categories, thumbnail, description, tagged_description):
     payload = {
