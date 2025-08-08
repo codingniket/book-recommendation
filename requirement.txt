@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-text-splitters
+langchain-chroma
+chromadb
+sentence-transformers
+pandas
+numpy
+python-dotenv
+torch
+transformers
+Flask
+streamlit

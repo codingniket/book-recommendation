@@ -6,8 +6,6 @@ __pycache__/
 *.sqlite3
 
 # Ignore data files
-*.csv
-*.txt
 
 # Ignore Chroma database directory
 chroma_db/
